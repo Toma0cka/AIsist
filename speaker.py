@@ -32,7 +32,6 @@ async def _synthesize(text: str) -> None:
 
 def speak(text: str) -> None:
     """Озвучка текста с автоматическим воспроизведением"""
-    print(f"[Джарвис]: {text}")
     try:
         # Синтез аудио через асинхронный таск
         asyncio.run(_synthesize(text))

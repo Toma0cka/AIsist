@@ -90,8 +90,6 @@ def jarvis_speak(text):
     # НОВОЕ: Отправляем ответ ИИ в интерфейс
     if gui_callback:
         gui_callback(text)
-        
-    speak(text)
 
 def ask_ollama(prompt):
     url = "http://localhost:11434/api/generate"

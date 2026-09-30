@@ -10,7 +10,9 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     
-MODEL_PATH = os.path.join(BASE_DIR, "model")
+MODEL_PATH = os.path.join(getattr(sys, "_MEIPASS", BASE_DIR), "model")
+if not os.path.isdir(MODEL_PATH):
+    MODEL_PATH = os.path.join(BASE_DIR, "model")
 
 q = queue.Queue()
 
