@@ -1,0 +1,9 @@
+pyTelegramBotAPI
+rapidfuzz
+sounddevice
+PyQt6
+vosk
+edge-tts
+pygame
+keyboard
+PyAudio
