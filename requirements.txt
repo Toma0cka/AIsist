@@ -1,6 +1,9 @@
-rapidfuzz==3.5.2
-keyboard==0.13.5
-SpeechRecognition==3.10.0
-PyAudio==0.2.14
-pyttsx3==2.90
-python-sounddevice==0.5.6-3
+pyTelegramBotAPI
+rapidfuzz
+sounddevice
+PyQt6
+vosk
+edge-tts
+pygame
+keyboard
+PyAudio
